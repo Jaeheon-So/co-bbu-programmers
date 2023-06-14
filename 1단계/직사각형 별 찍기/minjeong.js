@@ -10,4 +10,5 @@ process.stdin.on("data", (data) => {
     }
     console.log(starArr);
   }
+  // console.log(("*".repeat(a) + `\n`).repeat(b));
 });
