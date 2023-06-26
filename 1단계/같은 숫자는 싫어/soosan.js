@@ -12,3 +12,15 @@ function solution(arr) {
   }
   return answer;
 }
+
+// forEach 활용 풀이 미리 확인해서 pop없이 push만
+
+const solution = (arr) => {
+  var answer = [];
+
+  arr.forEach(v => {
+    if (!answer.length || answer[answer.length - 1] !== v) answer.push(v)
+  })
+
+  return answer;
+}
