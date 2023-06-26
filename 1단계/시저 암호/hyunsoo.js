@@ -19,3 +19,5 @@ function solution(s, n) {
   
   return answer;
 }
+// 아스키코드 숫자로 얻을 때 : charCodeAt()
+// 다시 문자로 변환할 때 : String.fromCharCode()
