@@ -14,4 +14,6 @@ const solution = (n, m) => {
   return answer;
 };
 
-console.log(solution(3, 12));
+// 유클리드 호제법
+// num1 % num2 = r //  GCD(num1, num2) = GCD(num2, r)
+// let getGCD = (num1, num2) => (num2 > 0 ? getGCD(num2, num1 % num2) : num1);
