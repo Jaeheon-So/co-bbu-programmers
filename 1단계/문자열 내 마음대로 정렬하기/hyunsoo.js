@@ -15,3 +15,4 @@ function solution(strings, n) {
   
   return answer;
 }
+// sort(), localeCompare()...
