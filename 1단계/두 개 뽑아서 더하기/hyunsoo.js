@@ -9,3 +9,4 @@ function solution(numbers) {
   return answer = [...new Set(answer)];
 }
 //sort를 for문 전에 돌릴 때, 나중에 돌릴 때 차이가 뭐지..
+// => [0, 2, 3, 6] 반례 참고!!!
