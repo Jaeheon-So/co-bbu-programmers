@@ -5,12 +5,12 @@ function solution(nums) {
     for (let j = i + 1; j < nums.length; j += 1) {
       for (let k = j + 1; k < nums.length; k += 1) {
         let sum = nums[i] + nums[j] + nums[k];
-        if (isNotPrime(sum)) answer += 1
+        if (isPrime(sum)) answer += 1
       }
     }
   }
 
-  function isNotPrime(sum) {
+  function isPrime(sum) {
     for (let i = 2; i <= parseInt(Math.sqrt(sum)); i += 1) {
       if (sum % i === 0) return false
     }
