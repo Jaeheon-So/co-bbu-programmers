@@ -34,3 +34,4 @@ function solution(survey, choices) {
 
   return answer;
 }
+//푸는중
