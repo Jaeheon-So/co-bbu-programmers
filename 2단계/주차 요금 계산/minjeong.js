@@ -41,9 +41,7 @@ function solution(fees, records) {
 
     // 기본 요금인지 추가 요금인지 확인
     if (totalMin > defaultMin) {
-      answer.push(
-        defaultFee + Math.ceil((totalMin - defaultMin) / unitMin) * unitFee
-      );
+      answer.push(defaultFee + Math.ceil((totalMin - defaultMin) / unitMin) * unitFee);
     } else {
       answer.push(defaultFee);
     }

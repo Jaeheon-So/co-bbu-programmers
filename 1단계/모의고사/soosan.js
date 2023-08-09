@@ -18,5 +18,3 @@ const solution = (answers) => {
 
   return answer;
 };
-
-console.log(solution([3, 3, 1, 1, 3, 3]));
