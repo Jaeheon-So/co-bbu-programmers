@@ -16,9 +16,9 @@ function solution(park, routes) {
     for (let i = 0; i < Number(n); i++) {
 
       if (d === "E") tempCol++;
-      else if (d === "W") tempCol--;
-      else if (d === "S") tempRow++;
-      else if (d === "N") tempRow--;
+      if (d === "W") tempCol--;
+      if (d === "S") tempRow++;
+      if (d === "N") tempRow--;
 
       if (
         tempRow > maxRow ||
