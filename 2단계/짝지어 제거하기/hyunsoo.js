@@ -1,5 +1,4 @@
-function solution(s)
-{
+function solution(s){
     const stack = []
     for(let i = 0; i < s.length; i+=1){
         if(stack[stack.length-1] === s[i]) {

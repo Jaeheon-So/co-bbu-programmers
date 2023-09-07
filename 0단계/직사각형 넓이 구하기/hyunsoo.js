@@ -1,4 +1,4 @@
-function solution(dots) {
+function solution(dots){
   var answer = 0;
   let arrX = dots.map(el => el[0])
   let arrY = dots.map(el => el[1])

@@ -1,4 +1,4 @@
-function solution(picture, k) {
+function solution(picture, k){
   var answer = [];    
   for(let strs of picture) {
       let line = ''
