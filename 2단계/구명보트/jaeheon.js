@@ -6,14 +6,9 @@ function solution(people, limit) {
   people.sort((a, b) => a - b);
 
   while (l <= r) {
-    if (people[l] + people[r] <= limit) {
-      answer++;
-      l++;
-      r--;
-    } else {
-      answer++;
-      r--;
-    }
+    if (people[l] + people[r] <= limit) l++;
+    r--;
+    answer++;
   }
 
   return answer;
