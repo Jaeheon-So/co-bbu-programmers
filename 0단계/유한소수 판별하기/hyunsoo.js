@@ -8,12 +8,11 @@ function solution(a, b) {
       }
       if(flag) return
   }
-  let bb = b
-  while(bb%2 === 0){
-      bb /= 2
+  while(b%2 === 0){
+      b /= 2
   }
-  while(bb%5 === 0){
-      bb /= 5
+  while(b%5 === 0){
+      b /= 5
   }
-  return answer = bb === 1 ? 1 : 2;
+  return answer = b === 1 ? 1 : 2;
 }
