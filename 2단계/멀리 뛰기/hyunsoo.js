@@ -1,5 +1,5 @@
 function solution (n) {
-  const dp = new Array(n+1).fill(0);
+  const dp = [];
   dp[0] = 1;
   dp[1] = 1;
   for(let i = 2; i <= n; i++){
